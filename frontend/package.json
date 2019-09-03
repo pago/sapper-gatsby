@@ -1,0 +1,32 @@
+{
+  "name": "TODO",
+  "description": "TODO",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "sapper dev",
+    "build": "sapper build",
+    "export": "sapper export",
+    "start": "node __sapper__/build",
+    "cy:run": "cypress run",
+    "cy:open": "cypress open",
+    "test": "run-p --race dev cy:run"
+  },
+  "dependencies": {
+    "apollo-boost": "^0.4.4",
+    "compression": "^1.7.1",
+    "graphql": "^14.5.4",
+    "isomorphic-unfetch": "^3.0.0",
+    "polka": "next",
+    "prettier": "^1.18.2",
+    "prismjs": "^1.17.1",
+    "sirv": "^0.4.0",
+    "universal-fetch": "^1.0.0"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5",
+    "sapper": "^0.27.0",
+    "svelte": "^3.0.0",
+    "svelte-loader": "^2.9.0",
+    "webpack": "^4.7.0"
+  }
+}
