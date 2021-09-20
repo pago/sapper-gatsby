@@ -18,7 +18,7 @@
     "isomorphic-unfetch": "^3.0.0",
     "polka": "next",
     "prettier": "^1.18.2",
-    "prismjs": "^1.17.1",
+    "prismjs": "^1.25.0",
     "sirv": "^0.4.0",
     "universal-fetch": "^1.0.0"
   },
